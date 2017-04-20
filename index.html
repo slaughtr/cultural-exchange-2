@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <title>Cultural Exchange</title>
+</head>
+<body>
+  <h1>Cultural Exchange</h1>
+  <div class="container">
+    <div class="col-sm-1"></div>
+    <div class="col-md-9">
+      <div class="row">
+        <p>Currency Exchange Rate:</p>
+      </div>
+      <div class="row">
+        <label for="country1Input">Current Location:</label>
+        <input type="text" name="country1Input" id="country1Input" placeholder="Home country name here..." required value="India">
+        <label for="country2Input">Destination:</label>
+        <input type="text" name="country2Input" id="country2Input" placeholder="Destination country name here..." required value="United States">
+      </div>
+      <div class="row">
+        <p><span id="infoBox"></span></p>
+      </div>
+      <div class="row">
+        <label for="income">Average Annual Income:</label>
+        <input type="number" name="income" id="income" placeholder="$..." required value="50000">
+        <label for="expenses">Total Monthly Expenses(utilities, insurances, housing, food travel, leisure):</label>
+        <input type="number" name="expenses" id="expenses" placeholder="$..." required value="1000">
+        <label for="timeLength">Total length of stay (months):</label>
+        <input type="number" name="timeLength" id="timeLength" placeholder="mos" required value="6">
+        <button type="button" class="btn btn-info" id="submitButton" name="submitButton">Submit</button>
+      </div>
+      <div class="row">
+        <p><span id="infoBox"></span></p>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</body>
+</html>
